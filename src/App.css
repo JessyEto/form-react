@@ -1,1 +1,92 @@
 /* Other rules */
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* CONTAINER */
+.container {
+  width: 1024px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* FORMULAIRE */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+
+.form input {
+  background-color: #fbf9f9;
+  color: #bcbbbb;
+  box-sizing: border-box;
+  height: 45px;
+  width: 300px;
+  margin-bottom: 20px;
+  border: solid #bcbbbb 1px;
+  border-radius: 5px;
+}
+
+.form > input {
+  background-color: #5d47d2;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+.form p {
+  margin: 5px 0;
+}
+
+/* RESULTS */
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 312px;
+  height: 155px;
+  background-color: #f2f2f2;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.results button {
+  background-color: #5d47d2;
+  color: white;
+  font-size: 15px;
+  width: 250px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer span {
+  font-weight: bold;
+}
